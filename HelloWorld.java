@@ -15,10 +15,11 @@ public class HelloWorld extends HttpServlet
                 PrintWriter Printer = response.getWriter();
                 Printer.println("<html>");
                 Printer.println("<head>");
-                Printer.println("\t<title>Leon Anavi Example</title>");
+                Printer.println("\t<title>CodeDeploy Test</title>");
                 Printer.println("</head>");
                 Printer.println("<body>");
                 Printer.println("<b>Hello World!</b>");
+                Printer.println("<b>Now it's been updated from Github!</b>");
                 Printer.println("</body>");
                 Printer.println("</html>");
                 return;
