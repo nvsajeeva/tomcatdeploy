@@ -21,6 +21,7 @@ public class HelloWorld extends HttpServlet
                 Printer.println("<b>Hello World!</b>");
                 Printer.println("<b>Now it's been updated from Github!</b>");
                 Printer.println("<b>This has to work now!</b>");
+                Printer.println("<b>If not reflecting then should stop Deployment!</b>");
                 Printer.println("</body>");
                 Printer.println("</html>");
                 return;
