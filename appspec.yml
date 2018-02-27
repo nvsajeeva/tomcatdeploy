@@ -18,6 +18,4 @@ hooks:
    AfterInstall:
    - location: scripts/starttomcat.sh
       runas: root
-   - location: scripts/healthcheck.sh
-      timeout: 120
-      runas: root
+  
