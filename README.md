@@ -1,2 +1,2 @@
 # tomcatdeploy
-tomcat deployment using aws codedeploy
+tomcat deployment using aws codedeploy.
